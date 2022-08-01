@@ -1,0 +1,35 @@
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+} 
+#save{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(2, 93, 93);
+    padding: 0 100px 100px 100px;
+    border-radius: 20px;
+    color: #fff;
+   margin-top:50px;   
+}
+input{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    outline: none;
+}
+button{
+    width: 100px;
+    background-color: #fff;
+    color: rgb(2, 93, 93);
+    outline: none;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+

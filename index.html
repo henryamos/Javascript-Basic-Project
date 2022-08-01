@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SAVING CALCULATOR</title>
+</head>
+<body>
+   
+    <div id="save">
+        <h3>SAVING CALCULATOR</h3>
+        <p>Savings Amount $ <input type="number" name="" id="savings"></p>
+        <p>Interest Rate % <input  type="number"  disabled="disabled" value="3" id="rate"></p>
+        <p>Months Duration <input type="number" name="" id="duration" min="1" max="60"></p>
+        <p>Saving Profit $<input   type="number" name="" disabled="disabled" id="profit"></p>
+        <p>Total Earnings <input type="number" name="" disabled="disabled"  id="totals"></p>
+        <button onclick="savingCalculation()">Calculate</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
